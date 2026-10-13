@@ -1,0 +1,27 @@
+
+create a script to create a table in postgree sql
+
+- the first table is a table to save a pokemon tcg cards
+- the second table is a table to save collection set 
+
+connect to tables with foreign key
+
+The first table: tbl_cards
+- ID
+- HP
+- Name
+- Type
+- Stage
+- info 
+- Attack 
+- Damage
+- Weak
+- Resist
+- Retreat
+- cardNumberInCollection 
+
+The second table: tbl_collections
+- ID
+- CollectionSetName
+- Release Date
+- totalCardsInCollection
